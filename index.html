@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAMBOGO MUGABO BONHEUR | Portfolio</title>
+    <meta name="description" content="Front-end Developer and UI Designer Portfolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor"/>
+                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+            </svg>
+        </div>
+        <nav class="nav">
+            <a href="#about">About me</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact" class="btn-contact">CONTACT ME</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero bg-split">
+            <div class="hero-left">
+                <div class="hero-content">
+                    <p class="greeting">Hi, I am</p>
+                    <h1 class="name">KAMBOGO MUGABO BONHEUR</h1>
+                    <p class="title">Software Engineer / Full-Stack Developer</p>
+                    <div class="social-links">
+                        <a href="mailto:m.kbonheur11@gmail.com"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg></a>
+                        <a href="https://github.com/Mugabo-art" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                        <a href="https://linkedin.com/in/kambogo-mugabo-bonheur" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="tel:+250781710037"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="watermark">IT</div>
+                <div class="portrait">
+                    <!-- ========================================================= -->
+                    <!-- TO ADD YOUR OWN PHOTO:                                    -->
+                    <!-- 1. Remove the background from a photo of yourself.        -->
+                    <!-- 2. Save it as a transparent PNG.                          -->
+                    <!-- 3. Place it in the 'assets' folder as 'my-photo.png'.     -->
+                    <!-- Note: The transparency is required to keep the glowing    -->
+                    <!-- drop-shadow effect over the split background!             -->
+                    <!-- ========================================================= -->
+                    <img src="my-photo.png" alt="KAMBOGO MUGABO BONHEUR" id="hero-img" onerror="this.src='assets/portrait.png'">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="about section-light">
+            <div class="container text-center">
+                <h2 class="section-title">ABOUT ME</h2>
+                <div class="title-underline"></div>
+                <p class="about-text">
+                    I am a passionate Software Engineer dedicated to building robust, scalable applications and designing efficient system architectures. With expertise across the full stack, I thrive on solving complex technical challenges and delivering high-quality, maintainable code.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+                    <a href="cv.html" class="btn-download-cv">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                        DOWNLOAD CV
+                    </a>
+                    <a href="#portfolio" class="btn-outline">EXPLORE</a>
+                </div>
+                <div class="vertical-separator"></div>
+                <div class="design-element">
+                    <svg width="50" height="20" viewBox="0 0 50 20" fill="none" stroke="black" stroke-width="2">
+                        <path d="M0,10 Q12.5,0 25,10 T50,10" fill="none" />
+                    </svg>
+                    <p>SYSTEM ARCHITECTURE</p>
+                    <p>SOFTWARE DEVELOPMENT</p>
+                    <p>CLOUD DEPLOYMENT</p>
+                </div>
+            </div>
+            <div class="separator-dots">
+                <span></span><span></span><span></span>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="experience section-light">
+            <div class="container text-center">
+                <h2 class="section-title">EXPERIENCE</h2>
+                <div class="title-underline"></div>
+                
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-date">JAN 2022 - PRESENT</div>
+                        <h3 class="experience-title">SENIOR SOFTWARE ENGINEER</h3>
+                        <div class="experience-company">TECH SOLUTIONS INC.</div>
+                        <p class="experience-desc">Leading the development of scalable microservices architectures and mentoring junior developers. Implementing CI/CD pipelines and optimizing database performance for high-traffic applications.</p>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-date">JUN 2019 - DEC 2021</div>
+                        <h3 class="experience-title">FULL-STACK DEVELOPER</h3>
+                        <div class="experience-company">GLOBAL WEB SERVICES</div>
+                        <p class="experience-desc">Developed and maintained complex web applications using React and Node.js. Collaborated with UI/UX designers to deliver high-quality, responsive user interfaces.</p>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="experience-date">JAN 2018 - MAY 2019</div>
+                        <h3 class="experience-title">JUNIOR DEVELOPER</h3>
+                        <div class="experience-company">INNOVATIVE APPS LTD</div>
+                        <p class="experience-desc">Contributed to the development of mobile-first web applications and participated in Agile development cycles and code reviews.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="separator-dots">
+                <span></span><span></span><span></span>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills section-light">
+            <div class="container text-center">
+                <a href="#skills" class="btn-outline">SKILLS</a>
+                
+                <div class="skills-block">
+                    <h3>USING NOW:</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fab fa-react" style="color: #61DAFB;"></i><span>REACT</span></div>
+                        <div class="skill-item"><i class="fab fa-node" style="color: #339933;"></i><span>NODE.JS</span></div>
+                        <div class="skill-item"><span style="color: #3178C6; font-weight: bold; font-size: 3rem; line-height: 1;">TS</span><span>TYPESCRIPT</span></div>
+                        <div class="skill-item"><i class="fas fa-database" style="color: #336791;"></i><span>POSTGRESQL</span></div>
+                        <div class="skill-item"><i class="fas fa-leaf" style="color: #47A248;"></i><span>MONGODB</span></div>
+                        <div class="skill-item"><i class="fab fa-docker" style="color: #2496ED;"></i><span>DOCKER</span></div>
+                        <div class="skill-item"><i class="fab fa-aws" style="color: #FF9900;"></i><span>AWS</span></div>
+                        <div class="skill-item"><i class="fab fa-git-alt" style="color: #F05032;"></i><span>GIT</span></div>
+                    </div>
+                </div>
+
+                <div class="skills-block">
+                    <h3>LEARNING:</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fas fa-project-diagram" style="color: #E10098;"></i><span>GRAPHQL</span></div>
+                        <div class="skill-item"><i class="fas fa-dharmachakra" style="color: #326CE5;"></i><span>KUBERNETES</span></div>
+                        <div class="skill-item"><i class="fab fa-golang" style="color: #00ADD8;"></i><span>GOLANG</span></div>
+                        <div class="skill-item"><i class="fab fa-rust" style="color: #000000;"></i><span>RUST</span></div>
+                    </div>
+                </div>
+
+                <div class="skills-block">
+                    <h3>OTHER SKILLS:</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fas fa-sync" style="color: #555;"></i><span>AGILE / SCRUM</span></div>
+                        <div class="skill-item"><i class="fas fa-vial" style="color: #555;"></i><span>TESTING / TDD</span></div>
+                        <div class="skill-item"><i class="fas fa-server" style="color: #555;"></i><span>LINUX</span></div>
+                        <div class="skill-item"><i class="fas fa-code-branch" style="color: #555;"></i><span>CI / CD</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <div class="portfolio-transition">
+            <div class="img-filter"></div>
+        </div>
+        <section id="portfolio" class="portfolio section-dark">
+            <div class="container text-center">
+                <a href="#portfolio" class="btn-outline light">PORTFOLIO</a>
+                
+                <div class="portfolio-nav">
+                    <button class="active">ALL</button>
+                    <button>BACKEND</button>
+                    <button>FRONTEND</button>
+                    <button>FULL-STACK</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Cards will be populated with images -->
+                    <div class="card">
+                        <img src="assets/portfolio_1.jpg" alt="Portfolio 1" onerror="this.src='https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80'">
+                        <div class="card-overlay">
+                            <h4>backend, architecture</h4>
+                            <h3>MICROSERVICES API</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/portfolio_2.jpg" alt="Portfolio 2" onerror="this.src='https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80'">
+                        <div class="card-overlay">
+                            <h4>frontend, full-stack</h4>
+                            <h3>ENTERPRISE DASHBOARD</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/portfolio_3.jpg" alt="Portfolio 3" onerror="this.src='https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?auto=format&fit=crop&w=600&q=80'">
+                        <div class="card-overlay">
+                            <h4>frontend</h4>
+                            <h3>REACT NATIVE APP</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/portfolio_4.jpg" alt="Portfolio 4" onerror="this.src='https://images.unsplash.com/photo-1614729939124-032f0b56c9ce?auto=format&fit=crop&w=600&q=80'">
+                        <div class="card-overlay">
+                            <h4>full-stack</h4>
+                            <h3>FINTECH PLATFORM</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/portfolio_5.jpg" alt="Portfolio 5" onerror="this.src='https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?auto=format&fit=crop&w=600&q=80'">
+                        <div class="card-overlay">
+                            <h4>backend</h4>
+                            <h3>DISTRIBUTED SYSTEMS</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/portfolio_6.jpg" alt="Portfolio 6" onerror="this.src='https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80'">
+                        <div class="card-overlay">
+                            <h4>systems architecture</h4>
+                            <h3>CI/CD PIPELINES</h3>
+                        </div>
+                    </div>
+                </div>
+                <p class="more-text">And many more to come!</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact section-light">
+            <div class="container text-center">
+                <a href="#contact" class="btn-outline">CONTACT</a>
+                <p class="contact-text">Interested in collaborating on a project or have a complex software engineering problem to solve? Let's connect.</p>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xaqaeyng" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL*" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="YOUR MESSAGE*" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">SUBMIT</button>
+                    <div class="vertical-separator-small"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i> BACK TO TOP</a>
+        <div class="social-links-footer">
+            <a href="mailto:m.kbonheur11@gmail.com"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg></a>
+            <a href="https://github.com/Mugabo-art" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+            <a href="https://linkedin.com/in/kambogo-mugabo-bonheur" target="_blank"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="tel:+250781710037"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+        </div>
+        <p class="copyright">@2024 KAMBOGO MUGABO BONHEUR All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

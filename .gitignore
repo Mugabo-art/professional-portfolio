@@ -1,0 +1,21 @@
+# OS files
+desktop.ini
+thumbs.db
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+temp/
+scratch/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local environment
+.env
